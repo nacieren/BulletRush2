@@ -43,6 +43,7 @@ public class miniKarakter : MonoBehaviour
     }
     public void öldün()
     {
-        SceneManager.LoadScene(0); 
+        SceneManager.LoadScene(0);
+        Time.timeScale=1;
     }
 }

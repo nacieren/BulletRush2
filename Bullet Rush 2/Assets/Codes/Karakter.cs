@@ -20,6 +20,8 @@ public class Karakter : MonoBehaviour
     public GameObject Lvl3;
     public GameObject Lvl4;
     public GameObject fireObje;
+    public int killer;
+    
 
 
     // Start is called before the first frame update
@@ -31,6 +33,7 @@ public class Karakter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        killer=fireObje.GetComponent<Fire>().kill;
         //mesafe = Vector3.Distance(transform.position, Enemy.position);
         if(ateþþ==true)
         {
@@ -58,7 +61,7 @@ public class Karakter : MonoBehaviour
     }
     public IEnumerator waitFire()
     {
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.1f);
         canFire = true;
 
     }
@@ -67,6 +70,16 @@ public class Karakter : MonoBehaviour
     public void stage1() 
     {
         Lvl1.SetActive(true);
+       /* for (int i = 0; i < 2; i++)
+        {
+            i = 0;
+            if (sayaç<= killer)
+            {
+                ateþþ = false;
+                break;
+            }
+        }
+       */
     }
     public void stage2()
     {

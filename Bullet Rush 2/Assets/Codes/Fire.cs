@@ -5,6 +5,7 @@ using UnityEngine;
 public class Fire : MonoBehaviour
 {
     public int kill=0;
+    public int a;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +23,9 @@ public class Fire : MonoBehaviour
         {
             Destroy(gameObject);
             Destroy(other.gameObject);
-            kill += 1;
+            kill ++;
+            a = kill;
+            Debug.Log(kill);
         }
     }
 

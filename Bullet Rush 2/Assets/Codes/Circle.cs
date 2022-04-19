@@ -16,21 +16,38 @@ public class Circle : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter(Collider other)
+    /* private void OnTriggerEnter(Collider other)
+     {
+         if (other.gameObject.tag == "Enemy")
+         {
+             ateþ.GetComponent<Karakter>().ateþþ = true;
+             Debug.Log("girdin");
+         }
+     }
+     private void OnTriggerExit(Collider other)
+     {
+        if(other.gameObject.tag=="Enemy") 
+         { 
+             ateþ.GetComponent<Karakter>().ateþþ = false;
+             Debug.Log("çýktýn");
+         }
+     }
+     */
+    private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.tag == "Enemy")
         {
             ateþ.GetComponent<Karakter>().ateþþ = true;
             Debug.Log("girdin");
         }
+      
     }
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-       if(other.gameObject.tag=="Enemy") 
-        { 
+        if (other.gameObject.tag != "Enemy")
+        {
             ateþ.GetComponent<Karakter>().ateþþ = false;
             Debug.Log("çýktýn");
         }
     }
-    
 }

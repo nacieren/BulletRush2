@@ -20559,7 +20559,6 @@ GameObject:
   - component: {fileID: 890206846}
   - component: {fileID: 890206845}
   - component: {fileID: 890206844}
-  - component: {fileID: 890206848}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -20644,21 +20643,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &890206848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 890206843}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1010997463ec6442957a1b9a0538eab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  karakter: {fileID: 8138997538541106216, guid: 9a886fb45b05a694cb38490363e4d55d,
-    type: 3}
-  start: {fileID: 0}
 --- !u!1 &906521020
 GameObject:
   m_ObjectHideFlags: 0
@@ -47106,7 +47090,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Level 1
+  m_text: Yeniden Dene
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -49558,7 +49542,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   silahUcu1: {fileID: 8138997539822991484}
   silahUcu2: {fileID: 8138997538767006312}
-  Enemy: {fileID: 5253726091741277784, guid: 51835a28a18679b45b3e7d3ae2d858aa, type: 3}
+  Enemy: {fileID: 8528070799632380644, guid: 51835a28a18679b45b3e7d3ae2d858aa, type: 3}
   mermi: {fileID: 4675557331082025752, guid: 517885496e139384c9dea90ece1f6199, type: 3}
   karakter: {fileID: 8138997539060057645}
   fireSpeed: 50
@@ -49572,6 +49556,7 @@ MonoBehaviour:
   Lvl3: {fileID: 1021465534}
   Lvl4: {fileID: 1161556872}
   fireObje: {fileID: 445887487279500651, guid: 517885496e139384c9dea90ece1f6199, type: 3}
+  killer: 0
 --- !u!54 &8138997539060057647
 Rigidbody:
   m_ObjectHideFlags: 0
