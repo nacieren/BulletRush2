@@ -1,3 +1,1 @@
-Düşmanları kodla yaratmak isterdim fakat çok küçük bir hata aldığımdan yapamadım. Ne hatası olduğunu biliyorum. Ama vaktim olmadığı için düzeltmedim.
-Umarım ilerde nasıl çözüldüğünü sizlerden öğrenirim.Yine zamandan dolayı UI kısmına çok yönelemedim . Daha çok mekanikleri yapmaya çalıştım. 
-UI kısmını daha önceden oyunlarımda çalıştığım için rahat bir şekilde halledebilirdim.
+Düşmanları kodla yaratmak isterdim fakat çok küçük bir hata aldığımdan yapamadım. Ne hatası olduğunu biliyorum. 5saatte yapılmış bir denemeydi. Vaktim olmadığı için düzeltmedim.Daha çok mekanikleri yapmaya çalıştım.
